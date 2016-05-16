@@ -4,6 +4,7 @@ import spock.lang.Specification
 
 class FileMakerTest extends Specification {
     def setup() {
+
     }
 
     def cleanup() {
