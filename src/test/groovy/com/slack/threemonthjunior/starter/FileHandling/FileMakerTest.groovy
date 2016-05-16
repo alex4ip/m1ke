@@ -9,7 +9,7 @@ class FileMakerTest extends Specification {
     def cleanup() {
     }
 
-    def "test accsesToFiles"() {
+    def "test accessToFiles"() {
         given:
 
         when:
