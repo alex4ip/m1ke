@@ -22,5 +22,13 @@ public class CompareFile {
         DeltaData.createDeltaChanges(fileMaker);
         RecoveryLastVersion.recoveryFile(fileMaker);
     }
+
+    public CompareFile() {
+    }
+
+    public CompareFile(ArrayList<Integer> oldString, ArrayList<Integer> newString) {
+        this.oldString = oldString;
+        this.newString = newString;
+    }
 }
 

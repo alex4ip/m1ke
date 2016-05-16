@@ -2,9 +2,6 @@ package com.slack.threemonthjunior.starter.FileHandling
 
 import spock.lang.Specification
 
-/**
- * Created by al on 15.05.16.
- */
 class FileMakerTest extends Specification {
     def setup() {
     }
